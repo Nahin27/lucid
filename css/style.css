@@ -1,0 +1,286 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4rem;
+  color: #1a1a1a;
+}
+
+h5 {
+  color: #008ed6;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+p {
+  color: #999999;
+  font-size: 1.125rem;
+}
+
+/* header css */
+header {
+  background-image: url("../images/banner.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  padding-bottom: 10em;
+}
+
+header h1, .testi h1 {
+  color: white;
+}
+
+/* navbar css */
+.nav-ul a {
+  color: #fffefe;
+}
+
+.nav-ul a:hover, .nav-ul a:active, .nav-ul a:focus {
+  color: #fffefe;
+  background-image: url("../images/hover-effect.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.nav-ul li {
+  padding-right: 1em;
+}
+
+/* banner css */
+.text {
+  margin-top: 2em;
+}
+
+.button-area .btn-primary {
+  background-color: #008ed6;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+}
+
+.button-area .btn-primary:hover {
+  background-color: transparent;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid white;
+}
+
+/* features css */
+.features h1 {
+  color: #1a1a1a;
+}
+
+.features h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* About css */
+.about-container {
+  margin-top: 8em;
+}
+
+.about-img {
+  width: 100%;
+}
+
+/* about short css */
+.about-short {
+  background-color: #f2f2f2;
+}
+
+.about-short .text {
+  padding-top: 5em;
+  padding-bottom: 8em;
+}
+
+.about-short .phone-image {
+  width: 100%;
+  margin-top: 3em;
+}
+
+/* testimonial css */
+.testi {
+  padding-top: 4em;
+  background-image: url("../images/quote-bg.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+
+.testi h4 {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  font-style: italic;
+}
+
+.testi p {
+  font-size: 1rem;
+  color: white;
+}
+
+.testi h6 {
+  font-size: 0.875rem;
+  color: white;
+  font-weight: 600;
+}
+
+.testi .owl-carousel {
+  margin-top: 4em;
+}
+
+.testi .owl-carousel .item .row {
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+
+/* eye-catcher css */
+.eye-catcher {
+  background-color: #15141a;
+}
+
+.eye-catcher .container-padding {
+  padding: 3em 0em 3em 0em;
+}
+
+.eye-catcher h2 {
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: white;
+}
+
+.eye-catcher span {
+  font-weight: 300;
+}
+
+/* pricing css start */
+.pricing .row {
+  padding-bottom: 5em;
+}
+
+.pricing-table a {
+  text-decoration: none;
+  color: #008ed6;
+}
+
+.pricing-table h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.pricing-table h2 {
+  font-size: 3.75rem;
+  font-weight: bold;
+}
+
+.pricing-table h2 span {
+  font-size: 3rem;
+}
+
+.pricing-table p {
+  font-size: 1.125rem;
+}
+
+.pricing-table .btn {
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 1px;
+}
+
+.pricing-table:hover .price-head h4 {
+  color: #008ed6;
+}
+
+.pricing-table:hover .main-price {
+  background-color: #008ed6;
+  color: white;
+}
+
+.pricing-table:hover .main-price p {
+  color: white;
+}
+
+.pricing-table .btn:hover {
+  background-color: #008ed6;
+  color: white;
+}
+
+/* Contact css start */
+.contact {
+  background: #ededed;
+}
+
+.contact .btn-primary {
+  background-color: #008ed6;
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 1px;
+  margin-left: 8em;
+}
+
+.contact .btn-primary:hover {
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.contact form {
+  background-color: #15141a;
+  padding: 3em;
+  position: relative;
+  z-index: 1;
+  margin-bottom: -5em;
+}
+
+.contact .form-control {
+  background-color: transparent;
+  border: 1px solid #444348;
+  color: #444348;
+  border-radius: 2px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  padding: 1em 1em;
+}
+
+.contact textarea {
+  height: 13em;
+}
+
+/* footer css */
+footer {
+  background-color: #15141a;
+  text-align: center;
+}
+footer ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+footer ul li {
+  padding-left: 2em;
+}
+
+footer p {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 1em;
+}
